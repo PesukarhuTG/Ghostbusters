@@ -139,7 +139,7 @@ header button {
     padding-right: 34px;
 }
 
-/* FILM */
+/* SECTION FILM */
 
 .film {
     padding-top: 80px;
@@ -299,5 +299,124 @@ header button {
     font-size: 16px;
     line-height: 19px;
     margin-bottom: 7px;
+}
+
+/* SECTION ACTORS */
+
+.cast {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #A5A5A5;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.section-title.active {
+    font-weight: 900;
+    color: #363636;
+}
+
+/* cards */
+
+.tabs {
+    margin-bottom: 60px;
+}
+
+.tabs-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-basis: 25%;
+    margin-bottom: 35px;
+}
+
+.card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5671F6;
+    margin-bottom: 6px;
+}
+
+.en-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A5A5A5;
+}
+
+/* SECTION NEWS */
+
+.section-news {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background: #F3F3F3;
+}
+
+.section-news-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin-bottom: 65px;
+}
+
+.news-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-card {
+    flex-basis: 23%;
+    background-color: #fff;
+    padding: 30px 30px 30px 30px;
+    border-radius: 5px;
+}
+
+.news-card:last-child {
+    margin-right: 0;
+}
+
+.news-card-date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+.news-card-title {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
 }
 
