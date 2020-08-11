@@ -81,7 +81,7 @@ input:focus, textarea:focus, select:focus {
 
 .list-items {
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: space-between;
     list-style: none;
 }
@@ -135,8 +135,6 @@ header button {
 .entry {
     color: #fff;
     background-color: #5671F6;
-    padding-left: 34px;
-    padding-right: 34px;
 }
 
 /* SECTION FILM */
@@ -199,7 +197,7 @@ header button {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .about-film {
@@ -337,7 +335,7 @@ header button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
 }
 
 .card {
@@ -390,7 +388,7 @@ header button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
 }
 
 .news-card {
@@ -419,3 +417,33 @@ header button {
     line-height: 16px;
     color: #000;
 }
+
+/* HAMBURGER MENU MOBILE */
+
+.mobile-buttons {
+    display: none;
+}
+
+.m-menu-button, .m-search-button {
+    padding: 5px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.menu-line {
+    display: block;
+    width: 18px;
+    background-color: #000;
+    height: 2px;
+    border-radius: 40px;
+    flex-basis: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.m-search-button {
+    margin-right: 30px;
+}
+
